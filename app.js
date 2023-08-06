@@ -27,7 +27,7 @@ app.get("", (req, res) => {
     );
 });
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.SERVER_PORT || 4002;
 
 app.listen(PORT, () => {
     LOGGER.info(`Server started @ http://localhost:${PORT}`);
