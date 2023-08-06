@@ -15,7 +15,7 @@ spec:
         app: devops-app-template
     spec:
       containers:
-        - image: myusername/myprog:latest
+        - image: 029492911530.dkr.ecr.eu-central-1.amazonaws.com/devops-app-template:version-1.1
           name: devops-app-template
           ports:
           - containerPort: 4002
