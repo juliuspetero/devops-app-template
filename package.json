@@ -1,7 +1,7 @@
 {
-  "name": "node-test-app",
+  "name": "devops-app-template",
   "version": "1.0.0",
-  "description": "This a mock API for Global PayEX",
+  "description": "This a mock API for Devops stuff",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
@@ -13,8 +13,5 @@
   "dependencies": {
     "express": "^4.17.3",
     "winston": "^3.6.0"
-  },
-  "engines": {
-    "node": "16.14.0"
   }
 }
